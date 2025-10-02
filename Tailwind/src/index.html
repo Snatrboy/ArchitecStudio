@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architect Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-gray-900">Architect Studio</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700 flex items-center justify-center text-white">
+  <div class="text-center">
+    <h2 class="text-5xl font-bold mb-4">Designing Future Spaces</h2>
+    <p class="text-xl mb-6">Modern, sustainable, and aesthetic designs</p>
+    <a href="#projects" class="bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100">
+      View Projects
+    </a>
+  </div>
+</section>
+
+
+  <!-- About Us -->
+  <section id="about" class="py-16 container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">About Us</h2>
+    <div class="md:flex items-center gap-8">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&auto=format&fit=crop&q=80" 
+           alt="Architecture Studio" 
+           class="rounded-lg mb-6 md:mb-0">
+      <div>
+        <p class="text-lg mb-4">
+          Architect Studio adalah firma arsitektur yang berfokus pada desain rumah, bangunan komersial, 
+          dan ruang publik. Kami menggabungkan estetika modern dengan fungsionalitas tinggi.
+        </p>
+        <p class="text-lg">
+          Dengan pengalaman lebih dari 10 tahun, kami telah menyelesaikan berbagai proyek 
+          dengan kepuasan klien yang tinggi.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-3">House Design</h3>
+          <p>Desain rumah modern, minimalis, hingga luxury sesuai kebutuhan klien.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-3">Interior Design</h3>
+          <p>Penataan interior yang elegan dan fungsional untuk setiap ruangan.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-3">Landscape</h3>
+          <p>Desain taman dan ruang luar yang harmonis dengan bangunan.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-3">Renovation</h3>
+          <p>Transformasi ruang lama menjadi baru dengan desain yang modern.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Projects</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600&h=400&auto=format&fit=crop&q=80" 
+           alt="Modern Building" 
+           class="rounded-lg shadow w-full h-64 object-cover">
+      <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&h=400&auto=format&fit=crop&q=80" 
+           alt="Glass Architecture" 
+           class="rounded-lg shadow w-full h-64 object-cover">
+      <img src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?w=600&h=400&auto=format&fit=crop&q=80" 
+           alt="Urban Architecture" 
+           class="rounded-lg shadow w-full h-64 object-cover">
+    </div>
+  </section>
+
+ <!-- Partners -->
+  <section id="partners" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Partners</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center text-center">
+        <div>
+          <img src="https://dummyimage.com/200x100/1e3a8a/ffffff&text=Urban+Design+Co." alt="Urban Design Co." class="mx-auto mb-2 rounded shadow">
+          <p class="text-gray-700 text-sm">Urban Design Co.</p>
+        </div>
+        <div>
+          <img src="https://dummyimage.com/200x100/047857/ffffff&text=Skyline+Architects" alt="Skyline Architects" class="mx-auto mb-2 rounded shadow">
+          <p class="text-gray-700 text-sm">Skyline Architects</p>
+        </div>
+        <div>
+          <img src="https://dummyimage.com/200x100/9333ea/ffffff&text=Futura+Studio" alt="Futura Studio" class="mx-auto mb-2 rounded shadow">
+          <p class="text-gray-700 text-sm">Futura Studio</p>
+        </div>
+        <div>
+          <img src="https://dummyimage.com/200x100/f97316/ffffff&text=Neo+Structure+Ltd" alt="Neo Structure Ltd" class="mx-auto mb-2 rounded shadow">
+          <p class="text-gray-700 text-sm">Neo Structure Ltd</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">What Clients Say</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="italic mb-4">"Layanan luar biasa! Desain rumah kami sangat sesuai dengan impian."</p>
+          <h4 class="font-bold">– Bapak Andi</h4>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="italic mb-4">"Studio ini benar-benar profesional, hasilnya elegan dan tepat waktu."</p>
+          <h4 class="font-bold">– Ibu Sinta</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- Call To Action -->
+  <section id="cta" class="py-16 bg-blue-600 text-white text-center">
+    <h2 class="text-3xl font-bold mb-4">Ready to start your project?</h2>
+    <p class="mb-6">Hubungi kami sekarang untuk konsultasi gratis.</p>
+    <a href="#contact" class="bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100">Get in Touch</a>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+    <div class="md:flex gap-8">
+      <form class="flex-1 space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border p-3 rounded-lg">
+        <input type="email" placeholder="Your Email" class="w-full border p-3 rounded-lg">
+        <textarea placeholder="Your Message" class="w-full border p-3 rounded-lg h-32"></textarea>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+          Send Message
+        </button>
+      </form>
+      <div class="flex-1 mt-8 md:mt-0">
+        <div class="space-y-4">
+          <p>📍 Jl. Arsitektur No.123, Malang</p>
+          <p>📞 +62 812-3456-7890</p>
+          <p>✉️ contact@architectstudio.com</p>
+          <p>🕒 Monday - Friday: 9:00 AM - 6:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-8">
+    <p>&copy; 2025 Architect Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
